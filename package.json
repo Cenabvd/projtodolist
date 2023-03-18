@@ -1,0 +1,17 @@
+{
+  "name": "projtodolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/styles/input.css -o ./src/styles/maincss/main.css",
+    "watch": "tailwindcss -i ./src/styles/input.css -o ./src/styles/maincss/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
