@@ -33,7 +33,7 @@ let UiControlles = (function(){
         showAddToDoPage : function(){
             document.getElementById('addtodopage').classList.remove('hidden')
             document.getElementById('addtodopage').classList.add('flex')
-            // make blue in backgorund addtodopage
+            // add blue in backgorund addtodopage
             document.getElementById('maintodo').classList.add('blur-sm')
         },
         hiddenAddToDoPage : function(){
