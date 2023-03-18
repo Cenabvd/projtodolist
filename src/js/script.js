@@ -94,18 +94,18 @@ let globalAppController = (function(BudgetCtrl , UiCtrl){
 
     // *******here********
     //hover todo tools    
-    document.getElementById('todo').addEventListener('mouseover' , function(){
-        // show todo tools
-        document.getElementById('todo-tools').classList.add('left-[1px]')
+    // document.getElementById('todo').addEventListener('mouseover' , function(){
+    //     // show todo tools
+    //     document.getElementById('todo-tools').classList.add('left-[0px]')
 
-    })
+    // })
 
-    document.getElementById('todo').addEventListener('mouseleave' , function(){
-        //hidden todo tools
-        document.getElementById('todo-tools').classList.remove('left-[1px]')
+    // document.getElementById('todo').addEventListener('mouseleave' , function(){
+    //     //hidden todo tools
+    //     document.getElementById('todo-tools').classList.remove('left-[0px]')
 
         
-    })
+    // })
     
     
 

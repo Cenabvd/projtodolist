@@ -528,8 +528,8 @@ video {
   left: 0px;
 }
 
-.left-\[1px\] {
-  left: 1px;
+.left-\[0px\] {
+  left: 0px;
 }
 
 .left-\[900px\] {
@@ -753,6 +753,10 @@ video {
   font-weight: 700;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -868,6 +872,11 @@ video {
 @media (min-width: 1024px) {
   .lg\:w-6\/12 {
     width: 50%;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
