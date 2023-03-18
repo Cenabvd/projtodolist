@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gradient-to-r from-indigo-50 via-indigo-100 to-indigo-50">
 
-    <main class="flex items-center justify-center h-screen">
+    <main id="maintodo" class="flex items-center justify-center h-screen">
         <div class="w-8/12 md:w-7/12 lg:w-6/12 xl:w-5/12 2xl:w-4/12">
 
             <header class="py-4 bg-indigo-400  shadow-lg rounded-sm text-center w-full">
@@ -20,7 +20,7 @@
             <main class="mt-4">
                 <section id="todo-box" class="bg-white shadow-lg w-full text-center gap-2 transition-all duration-200">
 
-                    <div id="todo" class="flex items-center justify-between px-8 py-4 overflow-x-hidden">
+                    <!-- <div id="todo" class="flex items-center justify-between px-8 py-4 overflow-x-hidden">
                         <div class="title flex items-center">
                             <div id="active-todolist" class="cursor-pointer w-[15px] h-[15px] bg-white border-2 border-solid border-indigo-400 rounded-lg"></div>
                             <h2 class="capitalize text-indigo-400 ml-4 cursor-default">title</h2>
@@ -38,7 +38,7 @@
                             </i>
                         </div>
 
-                    </div>
+                    </div> -->
                     
 
 
@@ -64,11 +64,18 @@
             <!-- addtodopage -->
             <section class="flex items-center w-11/12 h-3/5 justify-center bg-indigo-400 rounded-lg shadow-xl">
                 <div class="w-8/12 md:w-7/12 lg:w-6/12 xl:w-5/12 2xl:w-4/12 text-center">
-                    <h1 class="text-white text-2xl lg:text-4xl uppercase">enter your task</h1>  <!-- 50px -->
+                    <h1 class="text-white mb-2 text-3xl lg:text-4xl font-light uppercase">enter your task</h1>  <!-- 50px -->
                     
 
-                    <input id="addtodopageinput" type="text" class="mt-3 w-full px-5 py-2 focus:outline-none focus:border-none rounded-sm shadow-lg" placeholder="enter your task ...">
-                    <button id="addtodopageBTN" class=" bg-green-300 hover:bg-green-400 transition-all duration-200 text-black shadow-lg rounded-lg mt-2 px-6 py-1">add todo</button>
+                    <input id="addtodopageinput" type="text" class="mt-1 w-full px-5 py-4 focus:outline-none focus:border-none rounded-sm shadow-lg" placeholder="enter your task ...">
+                    <button id="addtodopageBTN" class="mt-5">
+                        <i>
+                            <svg id="Group_1" data-name="Group 1" class= text-[#F8ED81]" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 74 74">
+                                <path id="Path_1" data-name="Path 1" d="M37,69.375A32.375,32.375,0,1,1,69.375,37,32.375,32.375,0,0,1,37,69.375ZM37,74A37,37,0,1,0,0,37,37,37,0,0,0,37,74Z" fill="#f8ed81"/>
+                                <path id="Path_2" data-name="Path 2" d="M22.5,4a2.313,2.313,0,0,1,2.313,2.312V20.188H38.688a2.313,2.313,0,0,1,0,4.625H24.813V38.688a2.312,2.312,0,0,1-4.625,0V24.813H6.313a2.313,2.313,0,0,1,0-4.625H20.188V6.313A2.313,2.313,0,0,1,22.5,4Z" transform="translate(14.5 14.5)" fill="#f8ed81"/>
+                              </svg>                              
+                        </i>
+                    </button>
                 </div>
             </section>
         </section>
